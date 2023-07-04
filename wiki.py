@@ -68,7 +68,7 @@ class PageView():
 
 
 	def view(self, page):
-		return self.render(page.pagename, markdown.markdown(page.content))
+		return self.render(page.pagename, markdown.markdown(page.content, extensions=['toc']))
 
 
 	def edit(self, page):
