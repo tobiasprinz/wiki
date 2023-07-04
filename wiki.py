@@ -75,7 +75,7 @@ class PageView():
 		content = '''
 			<form action="/{pagename}/save" method="post">
 				<textarea name="content">{content}</textarea>
-				<input type="submit" value="submit">Submit</input>
+				<input type="submit" value="submit" />
 			</form>
 			'''.format(pagename=page.pagename, content=page.content)
 		return self.render(page.pagename, content)
