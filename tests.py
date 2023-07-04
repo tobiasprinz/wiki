@@ -7,3 +7,8 @@ class Tests():
 
 	def test_missing_page(self):
 		pass
+
+
+class AdminTests()
+	def test_import_pagename_with_whitespaces(self):
+		pass
